@@ -65,3 +65,9 @@ make format
 
 향후 FastAPI 서버 구성, Prometheus 기반 모니터링, ML 모델 서빙 구조까지 점차 확장해 나갈 예정입니다.
 
+## 결과
+- 도커 빌드, 푸시 워크플로우 수행
+![alt text](res/image.png)
+![alt text](res/image-2.png)
+- make all 결과
+![alt text](res/image-1.png)
