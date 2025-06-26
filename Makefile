@@ -9,4 +9,10 @@ test:
 format:
 	isort . && black .
 
+add:
+	python3 -c "from app.add import add; print(add(3, 5))"
+
+serve:
+	uvicorn app.main:app --reload
+
 all: format lint test
